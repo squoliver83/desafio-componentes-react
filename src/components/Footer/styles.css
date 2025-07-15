@@ -1,0 +1,23 @@
+footer {
+    background-color: var(--dcr-color-bg-primary);
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.dcr-footer-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.dcr-footer-content a {
+    font-size: 16px;
+    color: var(--dcr-color-font-primary);
+    margin-bottom: 10px;
+}
+
+.dcr-footer-content address {
+    font-size: 16px;
+    color: var(--dcr-color-font-primary);
+}
