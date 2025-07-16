@@ -1,4 +1,6 @@
-
+.dcr-comments-main {
+    min-height: calc(100vh - 190px);
+}
 
 .dcr-comments-visit-title h2 {
     font-size: 20px;

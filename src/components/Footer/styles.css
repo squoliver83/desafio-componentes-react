@@ -1,6 +1,6 @@
 footer {
-    background-color: var(--dcr-color-bg-primary);
     height: 120px;
+    background-color: var(--dcr-color-bg-primary);
     display: flex;
     align-items: center;
 }
