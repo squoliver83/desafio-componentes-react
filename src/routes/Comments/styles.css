@@ -2,12 +2,30 @@
     min-height: calc(100vh - 190px);
 }
 
+#dcr-comments-opinions-section {
+    background-color: var(--dcr-color-bg-quaternary);
+}
+
+.dcr-comments-visit-title {
+    display: flex;
+    justify-content: center;
+}
+
 .dcr-comments-visit-title h2 {
     font-size: 20px;
     color: var(--dcr-color-font-tertiary);
 }
 
+.dcr-comments-opinions-title {
+    display: flex;
+    justify-content: center;
+}
+
 .dcr-comments-opinions-title h2 {
     font-size: 20px;
     color: var(--dcr-color-font-tertiary);
+}
+
+.dcr-comments-opinions-cards {
+    padding: 0 20px;
 }

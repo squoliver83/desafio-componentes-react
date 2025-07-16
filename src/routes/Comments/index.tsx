@@ -1,6 +1,8 @@
 import './styles.css';
 import Footer from "../../components/Footer";
 import Header from "../../components/Header"
+import OpinionCard from '../../components/OpinionCard';
+import VisitCard from '../../components/VisitCard';
 
 export default function Comments() {
     return (
@@ -12,7 +14,7 @@ export default function Comments() {
                         <h2>Venha nos visitar</h2>
                     </div>
                     <div className="dcr-comments-visit-cards">
-
+                        <VisitCard />
                     </div>
                 </section>
                 <section id="dcr-comments-opinions-section" className="dcr-container">
@@ -20,7 +22,10 @@ export default function Comments() {
                         <h2>O que estão dizendo</h2>
                     </div>
                     <div className="dcr-comments-opinions-cards">
-
+                        <OpinionCard />
+                        <OpinionCard />
+                        <OpinionCard />
+                        <OpinionCard />
                     </div>                    
                 </section>
             </main>
