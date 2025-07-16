@@ -15,13 +15,15 @@ export default function Comments() {
                     </div>
                     <div className="dcr-comments-visit-cards">
                         <VisitCard />
+                        <VisitCard />
                     </div>
                 </section>
-                <section id="dcr-comments-opinions-section" className="dcr-container">
+                <section id="dcr-comments-opinions-section">
                     <div className="dcr-comments-opinions-title">
                         <h2>O que estão dizendo</h2>
                     </div>
                     <div className="dcr-comments-opinions-cards">
+                        <OpinionCard />
                         <OpinionCard />
                         <OpinionCard />
                         <OpinionCard />

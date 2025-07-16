@@ -1,6 +1,6 @@
 .dcr-opinion-card {
-    border: 1px solid var(--dcr-color-font-secondary);    
-    margin: 25px 0;
+    border: 1px solid var(--dcr-color-font-secondary);
+    margin-bottom: 25px;
     padding: 20px;
     border-radius: 12px;
     color: var(--dcr-color-font-secondary);

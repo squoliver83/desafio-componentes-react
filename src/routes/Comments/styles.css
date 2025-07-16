@@ -14,6 +14,14 @@
 .dcr-comments-visit-title h2 {
     font-size: 20px;
     color: var(--dcr-color-font-tertiary);
+    margin: 25px 0;
+}
+
+.dcr-comments-visit-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
 }
 
 .dcr-comments-opinions-title {
@@ -24,8 +32,12 @@
 .dcr-comments-opinions-title h2 {
     font-size: 20px;
     color: var(--dcr-color-font-tertiary);
+    margin: 25px 0;
 }
 
 .dcr-comments-opinions-cards {
-    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px 0 20px;
 }
