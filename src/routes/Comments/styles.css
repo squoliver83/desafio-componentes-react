@@ -41,3 +41,13 @@
     align-items: center;
     margin: 0 20px 0 20px;
 }
+
+@media (min-width: 768px) {
+    .dcr-comments-visit-title h2 {
+        font-size: 32px;
+    }
+
+    .dcr-comments-opinions-title h2 {
+        font-size: 32px;
+    }
+}

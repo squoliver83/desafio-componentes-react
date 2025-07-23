@@ -21,3 +21,11 @@ footer {
     font-size: 16px;
     color: var(--dcr-color-font-primary);
 }
+
+@media (min-width: 576px) {
+    .dcr-footer-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
